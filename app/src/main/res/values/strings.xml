@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MinimarketApp</string>
+    <string name="codigo">codigo</string>
+    <string name="nombre">Nombre</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="precio">Precio</string>
+    <string name="registrar">Registrar</string>
+</resources>

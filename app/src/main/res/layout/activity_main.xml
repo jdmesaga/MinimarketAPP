@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="421dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ExtraText,MissingConstraints">
+
+        <EditText
+            android:id="@+id/edtxCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:autofillHints="codigo"
+            android:ems="10"
+            android:hint="@string/codigo"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/edtxNombre"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:autofillHints="nombre"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtxCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:autofillHints="cantidad"
+            android:ems="10"
+            android:hint="@string/cantidad"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtxPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:autofillHints="precio"
+            android:ems="10"
+            android:hint="@string/precio"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="@string/registrar" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
